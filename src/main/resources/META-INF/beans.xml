@@ -1,0 +1,8 @@
+<!--
+  ~ Copyright (c) iNet Solution 2020.
+  -->
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://java.sun.com/xml/ns/javaee"
+       xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/beans_1_0.xsd">
+</beans>

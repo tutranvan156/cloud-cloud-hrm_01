@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="cloudhrm">
+    <output-path>$PROJECT_DIR$/out/artifacts/cloudhrm</output-path>
+    <root id="archive" name="cloudhrm.war" />
+  </artifact>
+</component>

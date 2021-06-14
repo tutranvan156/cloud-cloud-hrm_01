@@ -1,0 +1,168 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>${project-group}</groupId>
+    <artifactId>${project-artifact}</artifactId>
+
+    <version>${project-version}</version>
+    <packaging>jar</packaging>
+    <name>${project-name}</name>
+    <url>${project-url}</url>
+    <properties>
+        <project.basedir>.</project.basedir>
+
+        <!-- Project Information -->
+        <project-group>com.inet.cloud-hrm</project-group>
+        <project-name>cloud-cloud_hrm</project-name>
+        <project-url>https://inetcloud.vn</project-url>
+
+        <project-artifact>cloud-cloud-hrm</project-artifact>
+        <project-version>1.0</project-version>
+
+        <!-- iNet library properties -->
+        <cloud-docx.version>5.4.0</cloud-docx.version>
+        <cloud-protocol.version>1.0</cloud-protocol.version>
+        <inet-base.version>2.5.1.RELEASE</inet-base.version>
+        <inet-web.version>2.5.1.RELEASE</inet-web.version>
+        <icloud-common.version>1.0</icloud-common.version>
+        <icloud-nosql-web.version>5.4.0</icloud-nosql-web.version>
+        <icloud-plugin.version>5.4.0</icloud-plugin.version>
+        <icloud-web.version>5.4.0</icloud-web.version>
+        <icloud-xdb.version>4.4.0</icloud-xdb.version>
+
+        <mongo-java-driver.version>3.8.0</mongo-java-driver.version>
+        <!-- Third-party library properties -->
+        <maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
+        <maven-dependency-plugin.version>3.1.1</maven-dependency-plugin.version>
+        <maven.build.timestamp.format>MMM dd, yyyy
+        </maven.build.timestamp.format>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <build.timestamp>${maven.build.timestamp}</build.timestamp>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>com.inet.web</artifactId>
+            <version>2.5.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>com.inet.base</artifactId>
+            <version>2.5.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>cloud-docx</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>cloud-protocol</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>icloud-common</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>icloud-nosql-web</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>icloud-plugin</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>icloud-web</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>inet</groupId>
+            <artifactId>icloud-xdb</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.inject/javax.inject -->
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.enterprise/cdi-api -->
+        <dependency>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+            <version>2.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>${mongo-java-driver.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
+        <!--        <dependency>-->
+        <!--            <groupId>org.mongodb</groupId>-->
+        <!--            <artifactId>bson</artifactId>-->
+        <!--            <version>4.2.3</version>-->
+        <!--        </dependency>-->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven-jar-plugin.version}</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.inet.cloud-hrm</mainClass>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>${maven-dependency-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                            <overWriteReleases>false</overWriteReleases>
+                            <overWriteSnapshots>false</overWriteSnapshots>
+                            <overWriteIfNewer>true</overWriteIfNewer>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+
+    </build>
+
+</project>
