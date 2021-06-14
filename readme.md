@@ -29,8 +29,15 @@ mvn install:install-file -DgroupId=inet -DartifactId=com.inet.web -Dversion=2.5.
 
 * iNet cloud library:
   mvn install:install-file -DgroupId=inet -DartifactId=cloud-docx -Dversion=5.4.0 -Dpackaging=jar
-  -Dfile=lib/cloud-docx-5.4.0.jar mvn install:install-file -DgroupId=inet -DartifactId=icloud-xdb -Dversion=4.4.0
-  -Dpackaging=jar -Dfile=lib/icloud-xdb-4.4.0.jar
+  -Dfile=lib/cloud-docx-5.4.0.jar mvn install:install-file -DgroupId=inet -DartifactId=cloud-protocol -Dversion=1.0
+  -Dpackaging=jar -Dfile=lib/cloud-protocol-1.0.jar mvn install:install-file -DgroupId=inet -DartifactId=icloud-common
+  -Dversion=1.0 -Dpackaging=jar -Dfile=lib/icloud-common-1.0.jar mvn install:install-file -DgroupId=inet
+  -DartifactId=icloud-nosql-web -Dversion=5.4.0 -Dpackaging=jar -Dfile=lib/icloud-nosql-web-5.4.0.jar mvn install:
+  install-file -DgroupId=inet -DartifactId=icloud-plugin -Dversion=5.4.0 -Dpackaging=jar
+  -Dfile=lib/icloud-plugin-5.4.0.jar mvn install:install-file -DgroupId=inet -DartifactId=icloud-web -Dversion=5.4.0
+  -Dpackaging=jar -Dfile=lib/icloud-web-5.4.0.jar mvn install:install-file -DgroupId=inet -DartifactId=icloud-xdb
+  -Dversion=4.4.0 -Dpackaging=jar -Dfile=lib/icloud-xdb-4.4.0.jar mvn install:install-file -DgroupId=inet
+  -DartifactId=json-lib -Dversion=2.4 -Dpackaging=jar -Dfile=lib/json-lib-2.4.jar
 
 ```bash
 
@@ -38,9 +45,8 @@ mvn install:install-file -DgroupId=inet -DartifactId=com.inet.web -Dversion=2.5.
 
 * JSON lib
 
-```bash
-mvn install:install-file -DgroupId=net.sf.json-lib -DartifactId=json-lib -Dversion=2.4 -Dpackaging=jar -Dfile=lib/json-lib-2.4.jar
-```
+mvn install:install-file -DgroupId=net.sf.json-lib -DartifactId=json-lib -Dversion=2.4 -Dpackaging=jar
+-Dfile=lib/json-lib-2.4.jar
 
 # Build project
 
@@ -55,7 +61,6 @@ mvn install package
 ```bash
 mvn package 
 ```
-
 - Install package
 
 ```bash

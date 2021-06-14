@@ -4,91 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7067b7b-626d-4b65-9e36-10c8cec6e027" name="Default Changelist" comment="update 14/06">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cloudhrm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_cloud_docx_5_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_cloud_protocol_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_com_inet_base_2_5_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_com_inet_web_2_5_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_icloud_common_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_icloud_nosql_web_5_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_icloud_plugin_5_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_icloud_web_5_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__inet_icloud_xdb_4_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cloud_cloud_hrm_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cloud-hrm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cloud-hrm.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cloud-hrm.iws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cloud-hrm.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-cloud-hrm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cloud-docx-5.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cloud-protocol-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/com.inet.base-2.5.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/com.inet.web-2.5.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/icloud-common-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/icloud-nosql-web-5.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/icloud-plugin-5.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/icloud-web-5.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/icloud-xdb-4.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/json-lib-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_cloud-cloud-hrm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bf/CloudHRMBF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bf/IProcBf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/AbstractBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/AssetBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/TestBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/BackgroundInformationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/Certificate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/ContactInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/EmployeeInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/InsuranceInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/InsuranceProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/LaborContractInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/LaudatoryProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/TrainProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/WorkInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/dto/emloyee/WorkProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/provider/CloudHRMDatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/provider/NoSqlCloudHRMDatabaseProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/FindAllService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/BackgroundInformationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/CertificateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/ContactInformationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/InsuranceInformationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/LaborContactInformationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/ProfileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/SkillService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/WorkInformationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/jboss-deployment-structure.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cloud-db-hrm.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dozer/dozer-mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="f7067b7b-626d-4b65-9e36-10c8cec6e027" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-cloud-hrm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-cloud-hrm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/AssetBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/AssetBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/TestBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/TestBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/FindAllService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/FindAllService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/BackgroundInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/CertificateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/ContactInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/InsuranceInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/LaborContactInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/ProfileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/SkillService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/WorkInformationService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +36,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -153,13 +93,14 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\iNetSourceCode\project_HRM\src\main\resources" />
+      <recent name="D:\iNetSourceCode\project_HRM\src\main\java\com\inet\hrm\provider" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.inet.hrm.bf" />
       <recent name="com.inet.hrm.serivce" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\iNetSourceCode\project_HRM\src\main\resources" />
-      <recent name="D:\iNetSourceCode\project_HRM\src\main\java\com\inet\hrm\provider" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -188,7 +129,9 @@
       <workItem from="1622781591377" duration="24000" />
       <workItem from="1622789355219" duration="703000" />
       <workItem from="1623170389688" duration="1916000" />
-      <workItem from="1623634590668" duration="647000" />
+      <workItem from="1623634590668" duration="790000" />
+      <workItem from="1623638840160" duration="5961000" />
+      <workItem from="1623644854715" duration="1514000" />
     </task>
     <task id="LOCAL-00001">
       <created>1622707213642</created>
@@ -204,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623634749894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update 14/06">
+      <created>1623635277858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623635277858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +177,11 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/UserInformationBO.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
