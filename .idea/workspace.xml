@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7067b7b-626d-4b65-9e36-10c8cec6e027" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/UserBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-cloud-hrm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-cloud-hrm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/AssetBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/AssetBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/TestBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/TestBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/FindAllService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/FindAllService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/BackgroundInformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/CertificateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/ContactInformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/InsuranceInformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/LaborContactInformationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/ProfileService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/SkillService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/profile/WorkInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/UserInformationBO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/model/UserContactInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/model/UserContactInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/model/UserInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/FindAllService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/UserInformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inet/hrm/serivce/ShowAllUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectExample/jb10" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/iprocedure" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,6 +127,9 @@
       <workItem from="1623634590668" duration="790000" />
       <workItem from="1623638840160" duration="5961000" />
       <workItem from="1623644854715" duration="1514000" />
+      <workItem from="1623656649027" duration="8867000" />
+      <workItem from="1625016800294" duration="365000" />
+      <workItem from="1625017176746" duration="20904000" />
     </task>
     <task id="LOCAL-00001">
       <created>1622707213642</created>
@@ -154,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623635277858</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="14/6/2021">
+      <created>1623656681668</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623656681668</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="update 14/06" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 14/06" />
+    <MESSAGE value="14/6/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="14/6/2021" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -177,11 +183,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/inet/hrm/bo/UserInformationBO.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
